@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    font-size:50px;
+}
+body{
+    background-color: rgb(2, 2, 83);
+    color:white;
+}
+.card {
+
+    height: 400px;
+    width: 60%;
+    margin: auto;
+
+    /* From https://css.glass */
+    background: rgba(253, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.67px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    
+}
+img{
+    border-radius: 50%;
+    border: 2px solid white;
+    width:120px;
+    height:120px;
+    padding:10px;
+    background-color: white;
+}
+div .image{
+    text-align: center;
+    padding-top:20px;
+    margin-top:-15%;
+    z-index:0;
+   
+}
+.background{
+    background: rgb(208, 207, 207);
+    height:120px;
+    border-radius: 16px 16px 0px 0px;
+    text-align: end;
+    padding-right: 100px;
+   
+}
+.text{
+    text-align:center;
+}
+
+.background button{
+  
+   margin-top:49px;
+    background-color: black;
+    color:white;   
+}
+.text p{
+    font-size:22px;
+    font-weight: 50;
+}
+.text h2{
+    font-size:40px;
+    margin-top:-15px;
+    font-weight: 300;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    font-size: 40px;
+    padding:25px;
+    display:inline;
+}
+li:hover{
+    font-size:45px; 
+    text-shadow: 4px 4px black;
+}
+button{
+    height:30px;
+    border-radius:5px;
+}
+button:hover{
+    box-shadow: 3px 3px white;
+}
